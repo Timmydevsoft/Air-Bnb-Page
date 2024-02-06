@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import Navbar from './components/Navbar.jsx'
-import Euro from './components/euro.jsx'
+import Euro from './components/Euro.jsx'
 import Card from './components/Card.jsx'
 import Footer from './components/Footer.jsx'
 // import './App.css'
