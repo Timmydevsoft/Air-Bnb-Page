@@ -19,14 +19,14 @@ function App() {
     imageTwo: weddingPhoto ,
     ImageThree: mountainBike,
   }
-  
+
   return (
     <div className="main-app">
       <Navbar/>
       <Euro/>
       <div className="card-container">
             <Card image = {images.imageOne} ratins= "5" count="6" country = "USA" name="Life lessons with Katie Zaferes"  price="136"/>
-            <Card image = {images.imageTwo}  price="125"/>
+            <Card image = {images.imageTwo} ratins= "5" count="6"  price="125"/>
             <Card image = {images.ImageThree}  ratins= "5" count="6" country = "USA" name="Group Mountain Biking"  price="50"/>
            
         </div>
