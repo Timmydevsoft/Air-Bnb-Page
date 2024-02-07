@@ -1,10 +1,17 @@
+
+
 import React from "react"
 import star from "../assets/Star 1.png"
 
-export default function Card (props){
+
+
+export default function Card(props){
+
+
     return(
+
         <div className="card-section">
-            <img className="card-main-pics" src= {`./src/assets/${props.image}`} alt="image-one"/>
+            <img className="card-main-pics" src= {props.image} alt="image-one"/>
             <div className="text-cont">
                 <img className="star" src={star} allt="star-icon"/>
                 <span className="five">{props.ratins}</span>
